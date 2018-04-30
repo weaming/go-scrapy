@@ -3,21 +3,24 @@ language: go
 sudo: false
 
 go:
-  - 1.x
+  - 1.5.x
   - 1.6.x
   - 1.7.x
   - 1.8.x
   - 1.9.x
+  - 1.10.x
   - tip
 
 env:
   - GO15VENDOREXPERIMENT=1
 
 before_script:
-  - curl https://glide.sh/get | sh
   - go get github.com/mattn/goveralls
+  - pushd scrapy
+  - go get -t -v
+  - popd
 
-script: make deps && make test
+script: make test
 
 after_success:
   - goveralls -service=travis-ci
