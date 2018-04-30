@@ -2,12 +2,6 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/kabelsea/go-scrapy"
-  packages = ["scrapy"]
-  revision = "80468967ee7883a65a6035f80a83cd7b7a4c1ddf"
-
-[[projects]]
   name = "github.com/satori/go.uuid"
   packages = ["."]
   revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
@@ -37,6 +31,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6e8984d1670aeda259e8aa973ca91d06261cd63d754b611d3b28a7c64684f836"
+  inputs-digest = "7f100711a647ad5d32df5bfdd483ab1cdc06efefab0b482cdccdaf5d6f4d7801"
   solver-name = "gps-cdcl"
   solver-version = 1

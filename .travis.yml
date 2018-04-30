@@ -16,9 +16,6 @@ env:
 
 before_script:
   - go get github.com/mattn/goveralls
-  - pushd scrapy
-  - go get -t -v
-  - popd
 
 script: make test
 
