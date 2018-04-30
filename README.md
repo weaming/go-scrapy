@@ -1,6 +1,9 @@
-[![Build Status](https://travis-ci.org/kabelsea/go-scrapy.svg?branch=master)](https://travis-ci.org/kabelsea/go-scrapy) [![Coverage Status](https://coveralls.io/repos/github/kabelsea/go-scrapy/badge.svg?branch=master)](https://coveralls.io/github/kabelsea/go-scrapy?branch=master)
+[![Build Status](https://travis-ci.org/weaming/go-scrapy.svg?branch=master)](https://travis-ci.org/weaming/go-scrapy) [![Coverage Status](https://coveralls.io/repos/github/weaming/go-scrapy/badge.svg?branch=master)](https://coveralls.io/github/weaming/go-scrapy?branch=master)
 
 # go-scrapy
+
+[Fork from https://github.com/kabelsea/go-scrapy]
+
 A scrapy implementation in Go. (Work in progres)
 
 # Overview
@@ -12,12 +15,15 @@ A scrapy implementation in Go. (Work in progres)
 
 # Installation
 Install:
+
 ```
-go get github.com/kabelsea/go-scrapy
+go get github.com/weaming/go-scrapy
 ```
+
 Import:
+
 ```golang
-import scrapy "github.com/kabelsea/go-scrapy/scrapy"
+import scrapy "github.com/weaming/go-scrapy/scrapy"
 ```
 
 # Quickstart
@@ -66,9 +72,8 @@ func ProcessItem(resp *scrapy.Response) {
 ```
 
 # Howto
-Please go through [examples](https://github.com/kabelsea/go-scrapy/tree/master/examples) to get an idea how to use this package.
+Please go through [examples of kabelsea/go-scrapy](https://github.com/kabelsea/go-scrapy/tree/master/examples) to get an idea how to use this package.
 
 # Roadmap
   - Middlewares
-  - More examples
   - Tests
